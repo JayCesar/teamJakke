@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        teamjakke_red01: '#FE5B4F',
+        teamjakke_red02: '#E52112',
+      },
+    },
     screens: {
       'bsm': '300px',
       'sm': '640px',
